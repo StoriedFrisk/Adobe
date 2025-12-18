@@ -1,0 +1,21 @@
+# 1. 忽略所有数据集图片 (太大了，没人传GitHub)
+datasets/
+labeled/
+unlabeled_images/
+sorted_results/
+data/
+aug_existing/
+weights/
+make_data/
+
+# 2. 忽略训练出来的结果和权重 (特别是 .pt 文件，非常大)
+runs/
+*.pt
+*.onnx
+
+# 3. 忽略 Python 缓存和环境
+__pycache__/
+*.pyc
+.env
+venv/
+.vscode/

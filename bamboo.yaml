@@ -1,0 +1,11 @@
+# 数据集路径
+path: D:\\Documaents\\Adobe\\data
+train: images/train
+val: images/val
+# 类别设置
+nc: 4             #类别数量
+names:
+  0: 霉变         #
+  1: 严重开裂        #
+  2: 虫眼      #
+  3: 边壁缺失
